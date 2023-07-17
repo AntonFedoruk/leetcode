@@ -2,23 +2,23 @@ package ua.java.dsa.bitoperators;
 
 public class Main {
     public static void main(String[] args) {
-        int i = 0b00000100;
-        System.out.println(i);
-        System.out.println(Integer.toBinaryString(i));
-
-        System.out.println("побітовий здвиг вправо"); //еквіваленто діленню на 2
-        System.out.println("в десятковому виді: " + (i >> 1));
-        System.out.println("в двійковому виді: " + binaryStr(i >> 1));
-
-        System.out.println("побітовий здвиг ліворуч"); //еквіваленто множенню на 2
-        System.out.println("в десятковому виді: " + (i << 1));
-        System.out.println("в двійковому виді: " + binaryStr(i << 1));
+//        int i = 0b00000100;
+//        System.out.println(i);
+//        System.out.println(Integer.toBinaryString(i));
+//
+//        System.out.println("побітовий здвиг вправо"); //еквіваленто діленню на 2
+//        System.out.println("в десятковому виді: " + (i >> 1));
+//        System.out.println("в двійковому виді: " + binaryStr(i >> 1));
+//
+//        System.out.println("побітовий здвиг ліворуч"); //еквіваленто множенню на 2
+//        System.out.println("в десятковому виді: " + (i << 1));
+//        System.out.println("в двійковому виді: " + binaryStr(i << 1));
 //
 //        System.out.println("ділення числа на 4: " + (i >> 2));
 //        System.out.println("множення числа на 4: " + (i << 2));
 //
-//        int b1 = 0b00001001;
-//        int b2 = 0b00001010;
+        int b1 = 0b00001001;
+        int b2 = 0b00001010;
 //
 //        System.out.println("побітова операція І (AND)");
 //        printBinary(b1);
@@ -30,10 +30,12 @@ public class Main {
 //        printBinary(b2);
 //        printBinary(b1 | b2);
 //
-//        System.out.println("виключаюче АБО (XOR)");
-//        printBinary(b1);
-//        printBinary(b2);
-//        printBinary(b1 ^ b2);
+        System.out.println("виключаюче АБО (XOR)");
+        printBinary(b1);
+        printBinary(b2);
+        printBinary(b1 ^ b2);
+        printBinary(b1 ^ b2);
+        printBinary(5 ^ 3);
 //
 //        System.out.println("заперечення (NOT)");
 //        printBinary(b1);
