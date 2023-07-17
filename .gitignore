@@ -1,6 +1,10 @@
 HELP.md
 .gradle
-build/
+gradle/
+src/build.gradle
+src/gradlew
+src/gradlew.bat
+src/settings.gradle
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
